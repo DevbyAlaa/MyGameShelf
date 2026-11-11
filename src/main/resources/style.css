@@ -1,0 +1,122 @@
+.root {
+    -fx-background-color: #101015;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-text-fill: #f5edf2;
+}
+
+.title {
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff91bd;
+}
+
+.subtitle {
+    -fx-text-fill: #a69aa5;
+    -fx-padding: 0 0 18 0;
+}
+
+.summary {
+    -fx-text-fill: #c7a8b8;
+    -fx-padding: 12 0 8 0;
+}
+
+.text-field,
+.combo-box {
+    -fx-background-color: #24212b;
+    -fx-background-radius: 10;
+    -fx-border-color: #473344;
+    -fx-border-radius: 10;
+    -fx-padding: 9 12;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #a99aa8;
+}
+
+.text-field:focused,
+.combo-box:focused {
+    -fx-border-color: #ff91bd;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #f5edf2;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #24212b;
+    -fx-border-color: #473344;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #24212b;
+    -fx-text-fill: #f5edf2;
+    -fx-padding: 10;
+}
+
+.combo-box-popup .list-cell:filled:hover,
+.combo-box-popup .list-cell:filled:selected {
+    -fx-background-color: #644052;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #ff91bd;
+}
+
+.button {
+    -fx-cursor: hand;
+    -fx-background-radius: 10;
+    -fx-padding: 12 16;
+    -fx-font-weight: bold;
+}
+
+.primary-button {
+    -fx-background-color: #ff91bd;
+    -fx-text-fill: #22121a;
+}
+
+.primary-button:hover {
+    -fx-background-color: #ffb0d0;
+}
+
+.game-card {
+    -fx-background-color: #1d1923;
+    -fx-background-radius: 14;
+    -fx-border-color: #372a38;
+    -fx-border-radius: 14;
+    -fx-padding: 18;
+}
+
+.game-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.remove-button {
+    -fx-background-color: #382331;
+    -fx-text-fill: #ffaccd;
+}
+
+.remove-button:hover {
+    -fx-background-color: #573046;
+}
+
+.scroll-pane,
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar {
+    -fx-background-color: #101015;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #654354;
+    -fx-background-radius: 8;
+}
+
+.empty-message {
+    -fx-text-fill: #a69aa5;
+    -fx-padding: 35 0;
+}
